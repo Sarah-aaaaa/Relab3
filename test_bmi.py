@@ -1,8 +1,8 @@
-import ReLab2.bmi as bmi
+from ReLab2 import bmi as bmi
 
-def test_bmi_normalweight():
+def test_bmi_normal_weight():
     height = 1.73
-    weight = 50
+    weight = 57
     print("Normal Weight")
     result = bmi.calculate_bmi(height, weight)
     assert result == 0
