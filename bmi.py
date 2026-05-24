@@ -18,7 +18,7 @@ def calculate_bmi(height, weight):
         print("Overweight")
         return 1
 
-calculate_bmi(weight=57,height=1.73) #here matches by name
+
 
 
 
